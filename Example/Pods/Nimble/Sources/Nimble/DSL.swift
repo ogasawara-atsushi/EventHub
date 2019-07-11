@@ -40,26 +40,29 @@ internal func nimblePrecondition(
     _ name: @autoclosure() -> String,
     _ message: @autoclosure() -> String,
     file: StaticString = #file,
-    line: UInt = #line) -> Bool {
+    line: UInt = #line) {
         let result = expr()
         if !result {
-#if _runtime(_ObjC)
-            let e = NSException(
+#if canImport(Darwin)
+            let exception = NSException(
                 name: NSExceptionName(name()),
                 reason: message(),
-                userInfo: nil)
-            e.raise()
+                userInfo: nil
+            )
+            exception.raise()
 #else
             preconditionFailure("\(name()) - \(message())", file: file, line: line)
 #endif
         }
-        return result
 }
 
 internal func internalError(_ msg: String, file: FileString = #file, line: UInt = #line) -> Never {
+    // swiftlint:disable line_length
     fatalError(
-        "Nimble Bug Found: \(msg) at \(file):\(line).\n" +
-        "Please file a bug to Nimble: https://github.com/Quick/Nimble/issues with the " +
-        "code snippet that caused this error."
+        """
+        Nimble Bug Found: \(msg) at \(file):\(line).
+        Please file a bug to Nimble: https://github.com/Quick/Nimble/issues with the code snippet that caused this error.
+        """
     )
+    // swiftlint:enable line_length
 }

@@ -1,36 +1,27 @@
 PODS:
-  - EventHub (2.0)
-  - Nimble (5.0.0-alpha.30p1)
-  - Quick (0.9.3)
+  - EventHub (2.1)
+  - Nimble (8.0.2)
+  - Quick (2.1.0)
 
 DEPENDENCIES:
   - EventHub (from `../`)
-  - Nimble (from `https://github.com/Quick/Nimble.git`, branch `swift-3.0`)
-  - Quick (from `https://github.com/Quick/Quick.git`, branch `swift-3.0`)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   EventHub:
-    :path: ../
-  Nimble:
-    :branch: swift-3.0
-    :git: https://github.com/Quick/Nimble.git
-  Quick:
-    :branch: swift-3.0
-    :git: https://github.com/Quick/Quick.git
-
-CHECKOUT OPTIONS:
-  Nimble:
-    :commit: 9dc342cdffef660414d17f27aec897d0cacfffea
-    :git: https://github.com/Quick/Nimble.git
-  Quick:
-    :commit: 8f2bc636ecfa2cc20696f62548b38d4ab943e299
-    :git: https://github.com/Quick/Quick.git
+    :path: "../"
 
 SPEC CHECKSUMS:
-  EventHub: 1671a3a484b66f80d162c29ec1f113b262da6794
-  Nimble: c5b995b4cd57789ec44b0cfb79640fc00e61a8c7
-  Quick: 31fb576b6cbb6b028cc5e0016e4366accbb346f5
+  EventHub: 4f501940829cb86e4eaf40a1c169b45e1be831b0
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
 
-PODFILE CHECKSUM: 6b812c252f19872fcee4576128a9a0e952a18f63
+PODFILE CHECKSUM: 623580c0c2be5ed7f3769f56f1ab4e484fe186f8
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

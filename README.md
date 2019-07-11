@@ -50,7 +50,7 @@ EventHub.post(MessageEvent(message: "😜"))
 
 ## Requirements
 
-Swift 3.0
+Swift 4.2
 
 ## Installation
 
