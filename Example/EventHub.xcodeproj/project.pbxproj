@@ -171,7 +171,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EventHub_Tests/Pods-EventHub_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EventHub_Tests/Pods-EventHub_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EventHub/EventHub.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
@@ -184,7 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventHub_Tests/Pods-EventHub_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventHub_Tests/Pods-EventHub_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6603F8B55D2E859CC363DD4 /* [CP] Check Pods Manifest.lock */ = {
