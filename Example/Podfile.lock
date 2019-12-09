@@ -1,7 +1,7 @@
 PODS:
-  - EventHub (2.1)
-  - Nimble (8.0.2)
-  - Quick (2.1.0)
+  - EventHub (2.3)
+  - Nimble (8.0.4)
+  - Quick (2.2.0)
 
 DEPENDENCIES:
   - EventHub (from `../`)
@@ -9,7 +9,7 @@ DEPENDENCIES:
   - Quick
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Nimble
     - Quick
 
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EventHub: 4f501940829cb86e4eaf40a1c169b45e1be831b0
-  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
-  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  EventHub: e5d5d51964a63a8ac486ccecc5b70ae09204d1c2
+  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
 
-PODFILE CHECKSUM: 623580c0c2be5ed7f3769f56f1ab4e484fe186f8
+PODFILE CHECKSUM: 0108071b4af454d8c8d5d16ef79fb1a26d7ac216
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
