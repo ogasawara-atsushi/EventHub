@@ -2,6 +2,11 @@
 
 Type-safe and handy observation system in Swift.
 
+## Requirements
+- iOS 8.3
+- Xcode 11.2.1
+- Swift 5.0
+
 ## Quick Example
 ```swift
 struct MessageEvent: EventType {
@@ -50,7 +55,7 @@ EventHub.post(MessageEvent(message: "😜"))
 
 ## Requirements
 
-Swift 3.0
+Swift 5.0
 
 ## Installation
 
