@@ -1,7 +1,7 @@
 PODS:
-  - EventHub (2.3)
-  - Nimble (8.0.4)
-  - Quick (2.2.0)
+  - EventHub (2.4)
+  - Nimble (8.1.1)
+  - Quick (3.0.0)
 
 DEPENDENCIES:
   - EventHub (from `../`)
@@ -18,10 +18,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  EventHub: e5d5d51964a63a8ac486ccecc5b70ae09204d1c2
-  Nimble: 18d5360282923225d62b09d781f63abc1a0111fc
-  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  EventHub: 648386f02cb481896ad54c64545802dcb4d1256a
+  Nimble: 5f8a2fb6fa343a7242dfdd9d42f7267419d464b2
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
 
-PODFILE CHECKSUM: 0108071b4af454d8c8d5d16ef79fb1a26d7ac216
+PODFILE CHECKSUM: 6d2d628c052749202e2f53aff19fa6b7a456346c
 
 COCOAPODS: 1.8.4
