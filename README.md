@@ -4,8 +4,8 @@ Type-safe and handy observation system in Swift.
 
 ## Requirements
 - iOS 8.3
-- Xcode 11.2.1
-- Swift 5.0
+- Xcode 12.0-beta2
+- Swift 5.3
 
 ## Quick Example
 ```swift
