@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EventHub"
-  s.version          = "2.3"
+  s.version          = "2.4"
   s.summary          = "Type-safe and handy observation system in Swift. It's like NSNotificationCenter or EventBus(Android)."
 
 # This description is used to generate tags and improve search results.
